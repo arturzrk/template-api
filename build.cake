@@ -65,7 +65,7 @@ Task("Publish")
 
         StartAndReturnProcess("dotnet", new ProcessSettings
             {
-                Arguments = $@"publish src\Template.Api --configuration {configuration} --no-restore /p:Version={version}"
+                Arguments = $@"publish src\ScansData.Api --configuration {configuration} --no-restore /p:Version={version}"
             })
             .WaitForExit();
     });
@@ -76,7 +76,7 @@ Task("Pack")
     {
         CreateDirectory(artifactsDirectory);
 
-        Zip($@".\src\Template.Api\bin\{configuration}\netcoreapp2.0\publish\", $@"{artifactsDirectory}\template-api.zip");
+        Zip($@".\src\Scans.Api\bin\{configuration}\netcoreapp2.0\publish\", $@"{artifactsDirectory}\template-api.zip");
         
         if (AppVeyor.IsRunningOnAppVeyor)
         {

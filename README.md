@@ -1,6 +1,6 @@
-# Template API
+# Scans Data API
 
-This template API is equipped with the following features out of the box:
+ Agility Scans APIs are equipped with the following features:
 
 * HTTPS enforced (HTTP requests are ignored)
 * Accept header versioning (e.g. "Accept: application/vnd.Template.Api.v1+json" requests version 1)
