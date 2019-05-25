@@ -1,4 +1,4 @@
-﻿namespace Template.Api.ExceptionHandlers.Default.Version1
+﻿namespace ScansData.Api.ExceptionHandlers.Default.Version1
 {
     using System.Net;
     using System.Threading.Tasks;

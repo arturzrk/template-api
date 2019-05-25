@@ -1,4 +1,4 @@
-﻿namespace Template.Api.Versioning
+﻿namespace ScansData.Api.Versioning
 {
     using System;
     using System.Collections.Generic;
@@ -14,7 +14,7 @@
         static Versions()
         {
             versionRegex = new Regex( @"\.Version([0-9])(?:\.|$)", RegexOptions.Compiled );
-            detectedVersions = Assembly.Load( new AssemblyName( "Template.Api" ) )
+            detectedVersions = Assembly.Load( new AssemblyName( "ScansData.Api" ) )
                                        .GetTypes()
                                        .Where( IsInVersionedNamespace )
                                        .Select( t => GetVersionFromNamespace( t ).Value )

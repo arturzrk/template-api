@@ -1,4 +1,4 @@
-﻿namespace Template.Api.Common.Swashbuckle.AspNetCore.SwaggerGen
+﻿namespace ScansData.Api.Common.Swashbuckle.AspNetCore.SwaggerGen
 {
     using System.Collections.Generic;
     using System.Linq;

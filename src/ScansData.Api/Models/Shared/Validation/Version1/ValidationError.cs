@@ -1,4 +1,4 @@
-﻿namespace Template.Api.Models.Shared.Validation.Version1
+﻿namespace ScansData.Api.Models.Shared.Validation.Version1
 {
     public class ValidationError
     {

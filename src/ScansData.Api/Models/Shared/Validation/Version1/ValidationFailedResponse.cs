@@ -1,4 +1,4 @@
-﻿namespace Template.Api.Models.Shared.Validation.Version1
+﻿namespace ScansData.Api.Models.Shared.Validation.Version1
 {
     using System.Collections.Generic;
     using System.Collections.Immutable;

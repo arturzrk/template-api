@@ -1,4 +1,4 @@
-﻿namespace Template.Api
+﻿namespace ScansData.Api
 {
     using System;
     using System.Collections.Generic;
@@ -55,7 +55,7 @@
             services.AddAuthentication(IdentityServerAuthenticationDefaults.AuthenticationScheme)
                     .AddIdentityServerAuthentication(options =>
                     {
-                        options.ApiName = "Template.Api";
+                        options.ApiName = "ScansData.Api";
                         options.Authority = _configuration.GetValue<string>("IdentityServer:Authority");
                         options.RequireHttpsMetadata = _environment.IsProduction();
                     });
@@ -112,12 +112,12 @@
                     TokenUrl = $"{identityServerAuthority}connect/token",
                     Scopes = new Dictionary<string, string>
                     {
-                        {"Template.Api", "Template API"}
+                        {"ScansData.Api", "ScansData API"}
                     }
                 });
                 o.CustomSchemaIds(x => x.FullName);
                 o.DescribeAllEnumsAsStrings();
-                o.OperationFilter<AuthorizeOperationFilter>( "Template.Api" );
+                o.OperationFilter<AuthorizeOperationFilter>( "ScansData.Api" );
                 o.OperationFilter<CancellationTokenOperationFilter>();
 
                 if (_environment.IsDevelopment())
@@ -149,7 +149,7 @@
         {
             var info = new Info
             {
-                Title = $"Template Api {description.ApiVersion}",
+                Title = $"ScansData Api {description.ApiVersion}",
                 Version = description.ApiVersion.ToString()
             };
 
@@ -181,9 +181,9 @@
             app.UseSwagger();
             app.UseSwaggerUI( o =>
             {
-                o.OAuthClientId( "Template.Api.Swagger" );
+                o.OAuthClientId( "ScansData.Api.Swagger" );
                 o.OAuthClientSecret( "f4da10f1-33db-453e-8334-86182f68644b" );
-                o.OAuthAppName( "Template Api Swagger" );
+                o.OAuthAppName( "ScansData Api Swagger" );
 
                 foreach( var apiVersionDescription in apiVersionDescriptionProvider.ApiVersionDescriptions )
                 {

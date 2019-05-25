@@ -1,4 +1,4 @@
-﻿namespace Template.Api.Models.UpdateSomething.Version1
+﻿namespace ScansData.Api.Models.UpdateSomething.Version1
 {
     using FluentValidation;
 

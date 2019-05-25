@@ -1,4 +1,4 @@
-﻿namespace Template.Api.CommandHandlers
+﻿namespace ScansData.Api.CommandHandlers
 {
     using System.Threading;
     using System.Threading.Tasks;

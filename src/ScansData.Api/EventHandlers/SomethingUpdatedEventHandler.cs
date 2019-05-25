@@ -1,4 +1,4 @@
-﻿namespace Template.Api.EventHandlers
+﻿namespace ScansData.Api.EventHandlers
 {
     using System.Threading;
     using System.Threading.Tasks;

@@ -1,4 +1,4 @@
-﻿namespace Template.Api.Models.Shared.Exception.Version1
+﻿namespace ScansData.Api.Models.Shared.Exception.Version1
 {
     using Error.Version1;
 

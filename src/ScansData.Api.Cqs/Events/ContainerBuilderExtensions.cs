@@ -1,4 +1,4 @@
-﻿namespace Template.Api.Cqs.Events
+﻿namespace ScansData.Api.Cqs.Events
 {
     using System;
     using System.Linq;

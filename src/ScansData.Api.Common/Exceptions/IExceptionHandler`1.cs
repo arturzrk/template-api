@@ -1,4 +1,4 @@
-﻿namespace Template.Api.Common.Exceptions
+﻿namespace ScansData.Api.Common.Exceptions
 {
     using System;
     using System.Threading.Tasks;

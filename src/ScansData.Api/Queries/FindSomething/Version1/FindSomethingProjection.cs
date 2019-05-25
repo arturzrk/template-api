@@ -1,4 +1,4 @@
-﻿namespace Template.Api.Queries.FindSomething.Version1
+﻿namespace ScansData.Api.Queries.FindSomething.Version1
 {
     using Cqs.Queries;
 

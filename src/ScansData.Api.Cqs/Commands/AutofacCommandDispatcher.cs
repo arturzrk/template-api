@@ -1,4 +1,4 @@
-﻿namespace Template.Api.Cqs.Commands
+﻿namespace ScansData.Api.Cqs.Commands
 {
     using System;
     using System.Reflection;

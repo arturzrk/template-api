@@ -76,7 +76,7 @@ Task("Pack")
     {
         CreateDirectory(artifactsDirectory);
 
-        Zip($@".\src\Scans.Api\bin\{configuration}\netcoreapp2.0\publish\", $@"{artifactsDirectory}\template-api.zip");
+        Zip($@".\src\Scans.Api\bin\{configuration}\netcoreapp2.0\publish\", $@"{artifactsDirectory}\scansdata-api.zip");
         
         if (AppVeyor.IsRunningOnAppVeyor)
         {

@@ -1,4 +1,4 @@
-﻿namespace Template.Api.Commands.UpdateSomething.Version1
+﻿namespace ScansData.Api.Commands.UpdateSomething.Version1
 {
     using Cqs.Commands;
     using Events.SomethingUpdated.Version1;

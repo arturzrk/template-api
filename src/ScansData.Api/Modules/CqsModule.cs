@@ -1,4 +1,4 @@
-﻿namespace Template.Api.Modules
+﻿namespace ScansData.Api.Modules
 {
     using Autofac;
     using Cqs.Commands;

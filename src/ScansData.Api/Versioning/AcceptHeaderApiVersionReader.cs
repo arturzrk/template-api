@@ -1,4 +1,4 @@
-﻿namespace Template.Api.Versioning
+﻿namespace ScansData.Api.Versioning
 {
     using System.Linq;
     using System.Text.RegularExpressions;
@@ -7,7 +7,7 @@
 
     public class AcceptHeaderApiVersionReader: IApiVersionReader
     {
-        private static readonly Regex versionRegex = new Regex( @"^application\/vnd\.Template.Api.v(\d+)\+json$" );
+        private static readonly Regex versionRegex = new Regex( @"^application\/vnd\.ScansData.Api.v(\d+)\+json$" );
 
         public string Read( HttpRequest request )
         {

@@ -1,4 +1,4 @@
-﻿namespace Template.Api.Controllers
+﻿namespace ScansData.Api.Controllers
 {
     using System.Threading;
     using System.Threading.Tasks;

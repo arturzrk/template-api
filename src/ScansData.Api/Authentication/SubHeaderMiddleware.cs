@@ -1,4 +1,4 @@
-﻿namespace Template.Api.Authentication
+﻿namespace ScansData.Api.Authentication
 {
     using System.Collections.Generic;
     using System.Linq;

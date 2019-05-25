@@ -1,4 +1,4 @@
-﻿namespace Template.Api.Common.Microsoft.AspNetCore.Http
+﻿namespace ScansData.Api.Common.Microsoft.AspNetCore.Http
 {
     using System.Net;
     using System.Text;

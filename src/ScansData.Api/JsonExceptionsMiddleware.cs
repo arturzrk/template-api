@@ -1,4 +1,4 @@
-﻿namespace Template.Api
+﻿namespace ScansData.Api
 {
     using System;
     using System.Linq;

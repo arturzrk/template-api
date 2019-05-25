@@ -1,4 +1,4 @@
-﻿namespace Template.Api.QueryHandlers
+﻿namespace ScansData.Api.QueryHandlers
 {
     using System.Threading;
     using System.Threading.Tasks;

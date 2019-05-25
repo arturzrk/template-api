@@ -1,4 +1,4 @@
-﻿namespace Template.Api.Common.Newtonsoft.Json
+﻿namespace ScansData.Api.Common.Newtonsoft.Json
 {
     using global::Newtonsoft.Json;
     using global::Newtonsoft.Json.Serialization;

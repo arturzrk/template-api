@@ -1,4 +1,4 @@
-﻿namespace Template.Api.Validation
+﻿namespace ScansData.Api.Validation
 {
     using System.Linq;
     using Microsoft.AspNetCore.Mvc;

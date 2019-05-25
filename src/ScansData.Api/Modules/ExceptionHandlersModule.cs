@@ -1,4 +1,4 @@
-﻿namespace Template.Api.ExceptionHandlers
+﻿namespace ScansData.Api.ExceptionHandlers
 {
     using System;
     using System.Linq;

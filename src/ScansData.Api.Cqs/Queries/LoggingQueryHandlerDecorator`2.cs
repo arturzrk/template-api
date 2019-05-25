@@ -1,4 +1,4 @@
-﻿namespace Template.Api.Cqs.Queries
+﻿namespace ScansData.Api.Cqs.Queries
 {
     using System;
     using System.Diagnostics;

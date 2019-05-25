@@ -1,4 +1,4 @@
-﻿namespace Template.Api
+﻿namespace ScansData.Api
 {
     using System;
     using Microsoft.AspNetCore;
@@ -13,7 +13,7 @@
     {
         public static void Main( string[] args )
         {
-            Console.Title = "Template.Api";
+            Console.Title = "ScansData.Api";
 
             BuildWebHost( args ).Run();
         }
@@ -25,7 +25,7 @@
                            loggerConfiguration.MinimumLevel
                                               .Is( hostingContext.Configuration.GetValue<LogEventLevel>( "Serilog:LogEventLevel" ) )
                                               .Enrich.FromLogContext()
-                                              .Enrich.With( new PropertyEnricher( "Component", "Template.Api" ) )
+                                              .Enrich.With( new PropertyEnricher( "Component", "ScansData.Api" ) )
                                               .Enrich.With( new PropertyEnricher( "Environment", hostingContext.HostingEnvironment.EnvironmentName ) )
                                               .Enrich.WithExceptionDetails()
                                               .WriteTo.Console( hostingContext.Configuration.GetValue<LogEventLevel>( "Serilog:LogEventLevel" ) );

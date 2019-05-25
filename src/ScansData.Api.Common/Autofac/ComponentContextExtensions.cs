@@ -1,4 +1,4 @@
-﻿namespace Template.Api.Common.Autofac
+﻿namespace ScansData.Api.Common.Autofac
 {
     using global::Autofac;
 

@@ -1,4 +1,4 @@
-﻿namespace Template.Api.Models.Shared.Error.Version1
+﻿namespace ScansData.Api.Models.Shared.Error.Version1
 {
     public class ErrorResponse
     {
